@@ -4,10 +4,8 @@
 
 (function(){
 
-
-    console.log("Artem".match(/Artem|Igor/g)); //Artem
-    console.log("Luda, Igor".match(/Artem|Igor/g)); //Igor
-    
+    console.log("Artem".match(/\d(Artem)|Igor/g)); //null
+    console.log("2Artem".match(/\d(Artem)|Igor/g)); //2Artem
 
 
 })()
