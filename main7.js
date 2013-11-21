@@ -4,7 +4,7 @@
 
 (function(){
 
-    console.log("\n11vv\nvv2".match(/\d$/m));// "2"
+    console.log("11255 \n 66".match(/\d{2,3}/));// "112"
 
 
 
