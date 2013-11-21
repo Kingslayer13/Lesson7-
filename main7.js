@@ -4,13 +4,10 @@
 
 (function(){
 
-    console.log("mama ss".match(/[as]/)); //a
-    console.log("mama ss".match(/[as]/g)); // ["a", "a", "s", "s"]
 
+    console.log("Artem".match(/Artem|Igor/g)); //Artem
+    console.log("Luda, Igor".match(/Artem|Igor/g)); //Igor
+    
 
-    console.log("mamla121".match(/[as]\d/g)); //a1
-    console.log("aaaa".match(/[as]+/g)); // aaaa
-    console.log("aaaa".match(/[as]\d/g)); // null
-    console.log("mamla121".match(/[as]\d+/g)); //a121
 
 })()
