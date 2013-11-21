@@ -3,9 +3,10 @@
  */
 
 (function(){
-    console.log("\nnew\n12".match(/^./g)); // null
-    console.log("\nnew\n12".match(/^./m)); // "1" because m = multiline
-    
+
+    console.log("\n11vv\nvv2".match(/\d$/m));// "2"
+
+
 
 
 })()
