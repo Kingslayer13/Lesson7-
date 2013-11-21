@@ -3,15 +3,17 @@
  */
 
 (function(){
-    /d/.test()
 
-    var emailPattern  = /d/;
-    //validation
-    function test(mail){
-       return emailPattern(mail);
-    }
-    var first = /./g,
-    second = new RegExp(".", "g")
+    console.log("asd".match(/./)); //true
+    console.log("".match(/./)); // null
+    console.log("asd".match(/.+/)); // array
+    console.log("".match(/.+/));// null
+    console.log("asd".match(/.*/));//array
+    console.log("".match(/.*/));
+
+
+    console.log("asd".match(/.?/));
+    console.log("".match(/.?/));
 
 
 })()
