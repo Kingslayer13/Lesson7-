@@ -3,17 +3,9 @@
  */
 
 (function(){
-
-    console.log("asd".match(/./)); //true
-    console.log("".match(/./)); // null
-    console.log("asd".match(/.+/)); // array
-    console.log("".match(/.+/));// null
-    console.log("asd".match(/.*/));//array
-    console.log("".match(/.*/));
-
-
-    console.log("asd".match(/.?/));
-    console.log("".match(/.?/));
+    console.log("\nnew\n12".match(/^./g)); // null
+    console.log("\nnew\n12".match(/^./m)); // "1" because m = multiline
+    
 
 
 })()
