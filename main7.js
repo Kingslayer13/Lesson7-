@@ -5,10 +5,10 @@
 (function(){
     /d/.test()
 
-
+    var emailPattern  = /d/;
     //validation
-    if(/s/.test(mail)){
-
+    function test(mail){
+       return emailPattern(mail);
     }
     var first = /./g,
     second = new RegExp(".", "g")
