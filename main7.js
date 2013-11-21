@@ -5,6 +5,11 @@
 (function(){
     /d/.test()
 
+
+    //validation
+    if(/s/.test(mail)){
+
+    }
     var first = /./g,
     second = new RegExp(".", "g")
 
