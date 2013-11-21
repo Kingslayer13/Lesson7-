@@ -3,9 +3,7 @@
  */
 
 (function(){
-
-    console.log("Artem".match(/\d(Artem)|Igor/g)); //null
-    console.log("2Artem".match(/\d(Artem)|Igor/g)); //2Artem
-
+    console.log("23px, aaa".match(/\d+px/)); //23px
+    console.log("23px, aaa".match(/(\d+)px/)); //23
 
 })()
