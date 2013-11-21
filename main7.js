@@ -3,8 +3,9 @@
  */
 
 (function(){
+    /d/.test()
 
-var first = /./,
+    var first = /./g,
     second = new RegExp(".", "g")
 
 
