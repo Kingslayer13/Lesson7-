@@ -4,7 +4,9 @@
 
 (function(){
 
-    console.log("11255 \n 66".match(/\d{2,3}/));// "112"
+    console.log("mama ss".match(/[as]/)); //a
+    console.log("mama ss".match(/[as]/g)); // ["a", "a", "s", "s"]
+
 
 
 
