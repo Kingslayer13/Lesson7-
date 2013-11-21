@@ -3,7 +3,7 @@
  */
 
 (function(){
-    console.log("23px, aaa".match(/\d+px/)); //23px
-    console.log("23px, aaa".match(/(\d+)px/)); //23
+    console.log("MMJA m AM, aaa".match(/[a-z]/g)); //" m aaa"
+    console.log("MMJA m AM, aaa".match(/[a-z]/gi)); //array of all
 
 })()
